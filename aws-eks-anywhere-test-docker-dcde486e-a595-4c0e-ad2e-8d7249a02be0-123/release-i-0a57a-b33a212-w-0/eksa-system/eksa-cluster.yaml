@@ -15,18 +15,18 @@ spec:
       cidrBlocks:
       - 10.96.0.0/12
   controlPlaneConfiguration:
-    count: 1
+    count: 3
   datacenterRef:
     kind: DockerDatacenterConfig
     name: release-i-0a57a-b33a212-w-0
-  kubernetesVersion: "1.35"
+  kubernetesVersion: "1.36"
   licenseToken: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlSWQiOiJsLWFkNzZhMmVkNzUzNTRjMjFiYjQ0NGQ4MTVkNDRhOWUxIiwibGljZW5zZVZlcnNpb24iOiIxIiwiYmVnaW5WYWxpZGl0eSI6IjIwMjQtMTAtMjRUMTk6Mjg6MDkuMDAwWiIsImVuZFZhbGlkaXR5IjoiMjAyNy0xMC0yNVQxOToyODowOS4wMDBaIiwic3Vic2NyaXB0aW9uSWQiOiJlNjcxNTUyMi03NWIzLTQ2MDktOGMxYS0wZjJkNjQ0OTgxOGM6MjU2YTJjOGMiLCJzdWJzY3JpcHRpb25OYW1lIjoiaXRpbmZyYS1tcGstcnRwLXByb2QiLCJhY2NvdW50SWQiOiI4ODEwMzk3MDg2ODEiLCJyZWdpb24iOiJ1cy13ZXN0LTIifQ.isfTg9mjQmpkAJ5Q2zLCyq0CCwK2nyX1G7Ajql_emfg0k3ek-U6SUEyQ6j6ErkrOxBTSHh7ux5fVmoSDli-NUA
   managementCluster:
     name: release-i-0a57a-b33a212
   packages:
     disable: true
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 2
     name: worker-0
 status: {}
 
